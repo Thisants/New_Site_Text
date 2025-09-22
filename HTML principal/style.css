@@ -4,12 +4,26 @@ h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 h2{
-    background-color: rgb(136, 231, 231);
+    color: rgb(136, 231, 231);
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 body{
-    background-color: rgb(82, 172, 107);
-    text-align: auto;
+    background-color: rgb(100, 124, 107);;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: coral;
+}
+ul{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(150, 68, 68);
 }
