@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do DOM</title>
+    <style>
+        body{
+            background-color: rgb(74, 124, 124);
+            color: rgb(209, 165, 209);
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+<h1>Iniciando estudo DOM</h1>
+<p>Aqui vai o resultado da manipulação do DOM:</p>
+<P> Aprendendo a usar <strong> DOM </strong> em javascript</P>
+<div>clique em mim</div>
+<script>
+    var corpo = window.document.body;
+    var p1= window.document.getElementsByTagName('p')[1]
+    window.document.write('Esta escrito assim:' + p1.innerText);
+    corpo.style.backgroundColor = 'rgb(74, 124, 124)';
+    corpo.style.color = 'rgb(209, 165, 209)';
+
+    document.write(p1.innerHTML)
+</script>
+</body>
+</html>
